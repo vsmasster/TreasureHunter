@@ -12,5 +12,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txt_distance"
+        android:id="@+id/txtDistance"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtDistanceValue"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txtDistance" />
 </RelativeLayout>
